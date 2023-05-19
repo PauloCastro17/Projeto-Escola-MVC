@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'paulocastro17/escola-mvc',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'coffeecode/router' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'a16770ae952ce3f91a04035a09be610a030e049c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coffeecode/router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'coffeecode/uploader' => array(
+            'pretty_version' => '2.0.4',
+            'version' => '2.0.4.0',
+            'reference' => '4601ff1665a4591087c524239c1e545ba4834453',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../coffeecode/uploader',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'league/plates' => array(
+            'pretty_version' => 'v3.x-dev',
+            'version' => '3.9999999.9999999.9999999-dev',
+            'reference' => 'ec07462f53d38dd4a3323e288c41bffe86e9098e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/plates',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'paulocastro17/escola-mvc' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

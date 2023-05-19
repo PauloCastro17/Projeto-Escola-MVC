@@ -1,0 +1,29 @@
+{
+  "name": "paulocastro17/escola-mvc",
+  "description": "PHP/STUDY PROJECT",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paulo Castro",
+      "email": "castropaulo172004@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\" : "Source/"
+    },
+    "files": [
+      "Source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "2.0.*",
+    "coffeecode/uploader": "2.0.*",
+    "league/plates": "3.*"
+  }
+}
